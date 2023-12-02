@@ -1,0 +1,130 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.responsive-latest-container {
+  width: 93%;
+}
+
+.latest-match-details-card-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-details-card-container {
+    display: flex;
+    width: 100%;
+  }
+}
+.details-card-and-image-card-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .details-card-and-image-card-container {
+    width: 60%;
+  }
+  .balance-details-container {
+    width: 40%;
+  }
+}
+
+.detail-card {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .detail-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.opponent-team {
+  font-size: 18px;
+}
+.stadium {
+  font-size: 13px;
+  color: #bbc4c4;
+}
+.result {
+  font-size: 13px;
+  color: #bbc4c4;
+}
+
+@media screen and (min-width: 768px) {
+  .opponent-team {
+    font-size: 40px;
+  }
+  .date {
+    font-size: 30px;
+  }
+  .stadium {
+    font-size: 22px;
+  }
+  .result {
+    font-size: 26px;
+  }
+}
+
+.image-card {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opponent-logo {
+  height: 90px;
+  width: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .opponent-logo {
+    height: 190px;
+    width: 190px;
+  }
+}
+
+.line {
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .line {
+    display: none;
+  }
+}
+
+.balance-details-container {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+
+.normal {
+  font-size: 16px;
+}
+.small {
+  font-size: 12px;
+  color: #bbc4c4;
+}
+
+@media screen and (min-width: 768px) {
+  .normal {
+    font-size: 22px;
+    text-align: end;
+  }
+  .small {
+    font-size: 16px;
+    text-align: end;
+  }
+}

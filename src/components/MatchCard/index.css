@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.match-card {
+  background-color: #0f172a;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  width: 48%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.match-responsive-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bree Serif';
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.match-card-team-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.competing-team {
+  font-size: 23px;
+  color: #ffffff;
+}
+.team-result {
+  font-size: 15px;
+  color: #dadef7;
+}
+
+.won {
+  color: #18ed66;
+}
+.loss {
+  color: #e31a1a;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card {
+    width: 32%;
+  }
+  .match-card-team-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .competing-team {
+    font-size: 30px;
+    color: #ffffff;
+  }
+  .team-result {
+    font-size: 25px;
+  }
+
+  .won {
+    color: #18ed66;
+    font-size: 25px;
+  }
+  .loss {
+    color: #e31a1a;
+    font-size: 25px;
+  }
+}
